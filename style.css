@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: #010101;
+  font-weight: 500;
+}
+
+header {
+  border-bottom: 5px solid gray;
+}
+strong {
+  color: #009966;
+}
+main {
+  background: darkgrey;
+  height: 100%;
+}
+
+.max-width-wrapper {
+  max-width: 68ch;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.intro-chunk {
+  padding: 32px;
+  max-width: 350px;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.card {
+  background: white;
+  padding: 16px 32px;
+  box-shadow: 0px 5px gray;
+}
+
+.indented-heading {
+  font-size: 1.3rem;
+  background: gold;
+  width: max-content;
+  margin: 0px -48px;
+  padding: 16px 48px;
+  box-shadow: 0px 5px darkgoldenrod;
+}
