@@ -20,14 +20,13 @@ strong {
 main {
   background: darkgrey;
   height: 100%;
+  padding-top: 64px;
 }
 
 .max-width-wrapper {
   max-width: 68ch;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 
 .intro-chunk {
@@ -48,8 +47,12 @@ main {
 .indented-heading {
   font-size: 1.3rem;
   background: gold;
-  width: max-content;
   margin: 0px -48px;
   padding: 16px 48px;
   box-shadow: 0px 5px darkgoldenrod;
+}
+@media screen and (min-width: 700px) {
+  .indented-heading {
+    width: max-content;
+  }
 }
